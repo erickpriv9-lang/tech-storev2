@@ -19,17 +19,17 @@
       <a href="../index.html" class="boton-inicio">Inicio</a>
     </div>
     <div class="barra-busqueda">
-      <select>
-        <option>Todo</option>
-        <option>Laptops y PCs</option>
-        <option>Componentes</option>
-        <option>Monitores</option>
-        <option>Perifericos</option>
-        <option>Impresión</option>
-        <option>Celulares & Tablets</option>
-        <option>Redes</option>
+      <select id="categoria-filtro-catalogo">
+        <option value="">Todo</option>
+        <option value="laptops">Laptops y PCs</option>
+        <option value="componentes">Componentes</option>
+        <option value="monitores">Monitores</option>
+        <option value="perifericos">Perifericos</option>
+        <option value="impresion">Impresión</option>
+        <option value="celulares">Celulares & Tablets</option>
+        <option value="redes">Redes</option>
       </select>
-      <input type="text" placeholder="Buscar Productos">
+      <input type="text" id="busqueda-input-catalogo" placeholder="Buscar Productos">
     </div>
     <div class="acciones-encabezado">
       <a href="../usuario/usuario.html" class="boton-cuenta">Registrar/Ingresar</a>
@@ -203,5 +203,6 @@
 <script src="../carrito/carrito.js"></script>
 <script src="zoom.js"></script>
 <script src="filtro.js"></script>
+<script src="../busqueda-inicio.js"></script>
 </body>
 </html>
